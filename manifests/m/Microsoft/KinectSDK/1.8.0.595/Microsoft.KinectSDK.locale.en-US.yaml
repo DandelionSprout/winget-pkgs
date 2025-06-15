@@ -1,0 +1,17 @@
+# Created using wingetcreate 1.9.14.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: Microsoft.KinectSDK
+PackageVersion: 1.8.0.595
+PackageLocale: en-US
+Publisher: Microsoft
+PackageName: Kinect for Windows SDK
+License: Proprietary
+Copyright: Copyright ©. All rights reserved.
+ShortDescription: Enables developers to create applications that support gesture and voice recognition, using Kinect sensor technology on computers running Windows.
+Tags:
+- camera
+- webcam
+- xbox
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
