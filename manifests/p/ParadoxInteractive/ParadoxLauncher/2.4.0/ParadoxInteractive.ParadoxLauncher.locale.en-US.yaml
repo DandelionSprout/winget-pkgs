@@ -11,7 +11,9 @@ PrivacyUrl: https://legal.paradoxplaza.com/privacy
 Author: Paradox Interactive
 PackageName: Paradox Launcher
 PackageUrl: https://play.paradoxplaza.com
-License: Copyright (c) 2016 Paradox Interactive AB
+License: Copyright © 2016 Paradox Interactive AB
 ShortDescription: Game launcher for selected Paradox games. Connect your Paradox account to your steam account and get access directly through Paradox.
+Tags:
+- games
 ManifestType: defaultLocale
 ManifestVersion: 1.5.0
