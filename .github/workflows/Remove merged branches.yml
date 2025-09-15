@@ -1,0 +1,2 @@
+- name: Remove merged branches
+  uses: pcvg/remove-merged-branches@v1.0
