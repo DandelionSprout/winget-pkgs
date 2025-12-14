@@ -32,5 +32,10 @@ Installers:
   InstallerSha256: 79DAFED56FBCB91DAE5C21A39E363095C73872F817F6660CCDDB4DFBF95CAAF8
   InstallationMetadata:
     DefaultInstallLocation: '%ProgramFiles%\Vim'
+- Architecture: arm64
+  InstallerUrl: https://github.com/vim/vim-win32-installer/releases/download/v9.1.1976/gvim_9.1.1976_arm64.exe
+  InstallerSha256: 6fb65eed6d202da383ab778efda27be9748e12f8eb1d4c9ce24a8747c45b7bb3
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles%\Vim'
 ManifestType: installer
 ManifestVersion: 1.10.0
