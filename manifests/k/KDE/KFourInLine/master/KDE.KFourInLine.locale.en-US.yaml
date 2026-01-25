@@ -13,10 +13,23 @@ PackageName: kfourinline
 PackageUrl: https://apps.kde.org/kfourinline/
 License: GPL-2.0-or-later
 LicenseUrl: https://invent.kde.org/games/kfourinline/-/blob/HEAD/LICENSES/GPL-2.0-or-later.txt
-ShortDescription: Four-in-a-row Board Game
+ShortDescription: Four-in-a-row Board Game.
 Description: KFourInLine is a board game for two players based on the Connect-Four game. The players try to build up a row of four pieces using different strategies.
 Tags:
-- game
+- videogame
+- four-in-line
+- fourinarow
+- four-in-a-row
+- connectfour
+- connect-four
+- boardgame
+- localmultiplayer
+- 4inarow
+- 4-in-a-row
+- k4inline
+- k-4-in-line
+- connect4
+- connect-4
 Documentations:
 - DocumentLabel: Handbook
   DocumentUrl: https://docs.kde.org/?application=kfourinline
