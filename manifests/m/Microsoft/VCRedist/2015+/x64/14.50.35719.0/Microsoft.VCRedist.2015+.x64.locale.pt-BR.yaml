@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.10.0.schema.json
+
+PackageIdentifier: Microsoft.VCRedist.2015+.x64
+PackageVersion: 14.50.35719.0
+PackageLocale: pt-BR
+Publisher: Microsoft Corporation
+PublisherUrl: https://www.microsoft.com/pt-br
+PublisherSupportUrl: https://support.microsoft.com/
+PrivacyUrl: https://privacy.microsoft.com/privacystatement
+Author: Microsoft Corporation
+PackageName: Microsoft Visual C++ Redistribuível v14 (x64)
+PackageUrl: https://learn.microsoft.com/pt-br/cpp/windows/latest-supported-vc-redist
+License: Proprietary (Gratuito)
+LicenseUrl: https://www.microsoft.com/legal/terms-of-use
+Copyright: © Microsoft Corporation
+CopyrightUrl: https://www.microsoft.com/legal/intellectualproperty/trademarks
+ShortDescription: Um Redistribuível do Visual C++ instala bibliotecas de runtime do Microsoft C e C++. Muitos aplicativos criados usando as Ferramentas de Build do MICROSOFT C++ (MSVC) exigem essas bibliotecas.
+Description: Um Redistribuível do Visual C++ instala bibliotecas de runtime do Microsoft C e C++. Muitos aplicativos criados usando as Ferramentas de Build do MICROSOFT C++ (MSVC) exigem essas bibliotecas. Se o aplicativo for criado usando essas bibliotecas, um pacote redistribuível do Microsoft Visual C++ pelo menos tão recente quanto as ferramentas de build usadas para criar seu aplicativo devem ser instalados no sistema de destino junto com o aplicativo.
+Tags:
+- msvc
+- vc
+- vc++
+- visual-c++
+- msvcp140.dll
+- vcruntime140.dll
+- concrt140.dll
+- mfc140.dll
+- redistribuivel
+ManifestType: locale
+ManifestVersion: 1.10.0
