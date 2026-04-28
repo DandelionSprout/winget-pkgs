@@ -3,6 +3,7 @@
 
 PackageIdentifier: WaterbugStudios.Mazerator
 PackageVersion: 0.0.2
+ReleaseDate: 2020-10-09
 InstallerType: inno
 Scope: user
 InstallerSwitches:
@@ -12,5 +13,8 @@ Installers:
   InstallerUrl: https://github.com/MazeratorGame/Mazerator/releases/download/v0.0.2/mazerator-setup-win64.exe
   InstallerSha256: 3179B8183664945EC98F334427B2E33CFDD1CEE734C41C4F4C778B2DF57F433D
   ProductCode: '{DC5082CB-73C1-4E5B-B71F-EB29038A00EA}_is1'
+- Architecture: x86
+  InstallerUrl: https://github.com/MazeratorGame/Mazerator/releases/download/v0.0.2/mazerator-setup-win32.exe
+  InstallerSha256: 54cf48ac5f2722abdbdf53d7d7d056356a9bc02674aaac782c5b1764259442e4
 ManifestType: installer
 ManifestVersion: 1.9.0
