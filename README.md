@@ -34,3 +34,15 @@ See the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments. More information is available in our [Contributing document](CONTRIBUTING.md).
 
 To avoid doubt, you may not make any Submissions linking to third-party materials if such Submission is prohibited by the applicable third party and/or otherwise violates such third party's rights.
+
+—————————————————————————————————————————————————————————
+
+(Repology vs Windows tests by Dandelion Sprout in this fork)
+
+### Firefox Stable
+&emsp;&emsp;&emsp;&emsp;![Winget](https://img.shields.io/winget/v/Mozilla.Firefox.MSIX?label=Winget%20—%20MSIX)<br>
+[![Packaging status](https://repology.org/badge/vertical-allrepos/firefox.svg?exclude_unsupported=1)](https://repology.org/project/firefox/versions)
+
+### PeaZip
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![Winget](https://img.shields.io/winget/v/Giorgiotani.Peazip)<br>
+[![Packaging status](https://repology.org/badge/vertical-allrepos/peazip.svg?exclude_unsupported=1)](https://repology.org/project/peazip/versions)
