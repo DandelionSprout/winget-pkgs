@@ -13,15 +13,6 @@ Commands:
 - dua
 ReleaseDate: 2024-08-10
 Installers:
-- Architecture: x86
-  NestedInstallerFiles:
-  - RelativeFilePath: dua-v2.29.2-i686-pc-windows-msvc/dua.exe
-    PortableCommandAlias: dua
-  InstallerUrl: https://github.com/Byron/dua-cli/releases/download/v2.29.2/dua-v2.29.2-i686-pc-windows-msvc.zip
-  InstallerSha256: 4C9523BA0BADF681D1EFBFE85D6AC0D51A664BE08D1560F978B12A270CD713E9
-  Dependencies:
-    PackageDependencies:
-      - PackageIdentifier: Microsoft.VCRedist.2015+.x86
 - Architecture: x64
   NestedInstallerFiles:
   - RelativeFilePath: dua-v2.29.2-x86_64-pc-windows-msvc/dua.exe
@@ -31,5 +22,14 @@ Installers:
   Dependencies:
     PackageDependencies:
       - PackageIdentifier: Microsoft.VCRedist.2015+.x64
+- Architecture: x86
+  NestedInstallerFiles:
+  - RelativeFilePath: dua-v2.29.2-i686-pc-windows-msvc/dua.exe
+    PortableCommandAlias: dua86
+  InstallerUrl: https://github.com/Byron/dua-cli/releases/download/v2.29.2/dua-v2.29.2-i686-pc-windows-msvc.zip
+  InstallerSha256: 4C9523BA0BADF681D1EFBFE85D6AC0D51A664BE08D1560F978B12A270CD713E9
+  Dependencies:
+    PackageDependencies:
+      - PackageIdentifier: Microsoft.VCRedist.2015+.x86
 ManifestType: installer
 ManifestVersion: 1.6.0
