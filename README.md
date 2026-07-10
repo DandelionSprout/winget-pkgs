@@ -46,3 +46,6 @@ To avoid doubt, you may not make any Submissions linking to third-party material
 ### PeaZip
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![Winget](https://img.shields.io/winget/v/Giorgiotani.Peazip)<br>
 [![Packaging status](https://repology.org/badge/vertical-allrepos/peazip.svg?exclude_unsupported=1)](https://repology.org/project/peazip/versions)
+
+### AdGuard DNS Proxy
+[![Packaging status](https://repology.org/badge/vertical-allrepos/dnsproxy-adguard.svg?exclude_unsupported=1)](https://repology.org/project/dnsproxy-adguard/versions)<br>![Winget](https://img.shields.io/winget/v/AdGuard.dnsproxy?label=🞝&emsp;&emsp;&emsp;&emsp;%20&emsp;&emsp;&emsp;Winget)<br>
