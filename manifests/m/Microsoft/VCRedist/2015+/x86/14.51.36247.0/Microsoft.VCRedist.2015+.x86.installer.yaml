@@ -7,7 +7,7 @@ InstallerType: burn
 Scope: machine
 InstallerSuccessCodes:
 - 3010
-UpgradeBehavior: install
+UpgradeBehavior: uninstallPrevious
 ProductCode: '{9a6ce18d-11c0-4452-aa35-9f2b8437c686}'
 AppsAndFeaturesEntries:
 - UpgradeCode: '{F899BAD3-98ED-308E-A905-56B5338963FF}'
