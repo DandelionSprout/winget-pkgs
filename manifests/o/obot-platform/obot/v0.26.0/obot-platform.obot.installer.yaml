@@ -15,7 +15,7 @@ Installers:
   InstallerSha256: B5A9CBE74F1F57C1B1CD27545606CBF1871380F19A6EE9FA2C0496D89D4524ED
 - Architecture: arm64
   InstallerUrl: https://github.com/obot-platform/obot/releases/download/v0.26.0/obot_v0.26.0_windows_arm64.zip
-  InstallerSha256: ed2dc027c7e0706496ccbdbac8bbfdad7af42560a28655522bd8894376043ca0
+  InstallerSha256: b0b49478f6bb4f67e6aaac968576484ff149e3099fd001e2a9cce9f931c2feae
   AppsAndFeaturesEntries:
   - DisplayName: obot (ARM64)
 ManifestType: installer
