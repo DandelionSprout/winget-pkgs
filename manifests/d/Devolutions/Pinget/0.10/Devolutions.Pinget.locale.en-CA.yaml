@@ -7,7 +7,7 @@ Publisher: Devolutions
 PackageName: Pinget
 PackageUrl: https://github.com/Devolutions/pinget
 License: MIT
-ShortDescription: A portable version of Winget.
+ShortDescription: An experimental, portable, Winget-compatible package manager implementation by Devolutions.
 Moniker: pinget
 Tags:
 - portable-winget
@@ -15,6 +15,8 @@ Tags:
 - winget-portable
 - windows-server-core
 - windowsservercore
+- windows-10-1709
+- wine-compatibility-layer
 - defaultsource-packages
 - requirescmd
 ManifestType: defaultLocale
