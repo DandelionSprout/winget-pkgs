@@ -29,7 +29,7 @@ Installers:
 - Architecture: arm64
   Scope: machine
   ElevationRequirement: elevatesSelf
-  InstallerUrl: https://github.com/mountain-loop/yaak/releases/download/v2026.8.1/Yaak_2026.8.1_x64-setup-machine.exe
+  InstallerUrl: https://github.com/mountain-loop/yaak/releases/download/v2026.8.1/Yaak_2026.8.1_arm64-setup-machine.exe
   InstallerSha256: 58d7f0761e81454dc779839de8b9a90dce65c51591cfe911316eea96beee8413
 ManifestType: installer
 ManifestVersion: 1.12.0
