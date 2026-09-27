@@ -9,7 +9,7 @@ Platform:
 - Windows.Desktop
 InstallerType: nullsoft
 Scope: machine
-ElevtionRequirement: elevatesSelf
+ElevationRequirement: elevatesSelf
 InstallModes:
 - interactive
 - silent
