@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: Hydr8gon.NooDS
+PackageVersion: master
+PackageLocale: en-US
+Publisher: Hydr8gon
+PackageName: NooDS
+PackageUrl: https://github.com/Hydr8gon/NooDS
+License: GPLv3
+ShortDescription: The goal of NooDS is to be a fast and portable DS and GBA emulator. It features accurate software rendering with upscaling, and can take advantage of multiple cores for better performance.
+Moniker: noods
+Tags:
+- noo-ds
+- emulator
+- nintendo-dsi
+- nintendodsi
+- nds
+- 1ds
+- game-boy-advance
+- gameboyadvance
+- gba
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
