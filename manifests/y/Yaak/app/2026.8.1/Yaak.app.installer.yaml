@@ -3,11 +3,10 @@
 
 PackageIdentifier: Yaak.app
 PackageVersion: 2026.8.1
+ReleaseDate: 2026-09-23
 InstallerLocale: en-US
 InstallerType: nullsoft
-Scope: user
 ProductCode: Yaak
-ReleaseDate: 2026-09-23
 AppsAndFeaturesEntries:
 - Publisher: Yaak
   ProductCode: Yaak
@@ -15,7 +14,22 @@ InstallationMetadata:
   DefaultInstallLocation: "%LocalAppData%\\Yaak"
 Installers:
 - Architecture: x64
+  Scope: user
   InstallerUrl: https://github.com/mountain-loop/yaak/releases/download/v2026.8.1/Yaak_2026.8.1_x64-setup.exe
   InstallerSha256: 7A242D083B3E85EB45AE4E5C954CF0D253EBE7EC46544FC03EAFEA2540C03DF1
+- Architecture: x64
+  Scope: machine
+  ElevationRequirement: elevatesSelf
+  InstallerUrl: https://github.com/mountain-loop/yaak/releases/download/v2026.8.1/Yaak_2026.8.1_x64-setup-machine.exe
+  InstallerSha256: a0508f718aa2798d517a6932be47691824fa49ee03379940742155bb208ed574
+- Architecture: arm64
+  Scope: user
+  InstallerUrl: https://github.com/mountain-loop/yaak/releases/download/v2026.8.1/Yaak_2026.8.1_arm64-setup.exe
+  InstallerSha256: b13dc8aef9b82d1e0411d343b1df88bdb6a0ae7343c23bc772fb2c64469ef25a
+- Architecture: arm64
+  Scope: machine
+  ElevationRequirement: elevatesSelf
+  InstallerUrl: https://github.com/mountain-loop/yaak/releases/download/v2026.8.1/Yaak_2026.8.1_x64-setup-machine.exe
+  InstallerSha256: 58d7f0761e81454dc779839de8b9a90dce65c51591cfe911316eea96beee8413
 ManifestType: installer
 ManifestVersion: 1.12.0
