@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.28.0.schema.json
+
+PackageIdentifier: DualSenseClient.DualSenseClient
+PackageVersion: 1.0.0-12
+PackageLocale: ja-JP
+Tags:
+- dualsense-client
+- デュアルセンスクライアント
+- デュアルセンス音声
+- デュアルセンススピーカー
+- デュアルセンス電池残量
+- デュアルセンスエッジ
+- デュアルセンス入力監視
+- デュアルセンス振動テスター
+- デュアルセンスコントローラプロフィール
+- デュアルセンス接続状況
+- プレイステーション5コントローラ
+- ps5コントローラ
+- でゅあるせんすおんせい
+- でゅあるせんすでんちざんりょう
+- でゅあるせんすにゅうりょくかんし
+- でゅあるせんすしんどうてすたー
+ManifestType: locale
+ManifestVersion: 1.28.0

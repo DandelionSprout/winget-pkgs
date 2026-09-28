@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+
+PackageIdentifier: DualSenseClient.DualSenseClient
+PackageVersion: 1.0.0-12
+PackageLocale: en-US
+Publisher: DualSenseClient
+PackageName: DualSenseClient
+PackageUrl: https://github.com/DualSenseClient/DualSenseClient
+License: GPLv3
+ShortDescription: "Unofficial DualSense client for Windows. Customize and monitor your PS5 DualSense controller: lighting, profiles, input monitoring, rumble, adaptive triggers, and audio to the controller's speaker and haptics."
+Moniker: dualsenseclient
+Tags:
+- dualsense-client
+- dualsense-speaker
+- dualsensespeaker
+- dualsense-audio
+- dualsenseaudio
+- dualsense-sound
+- dualsensesound
+- dualsense-battery-level-checker
+- dualsensebatterylevelchecker
+- dualsense-input-monitor
+- dualsense-rumble-tester
+- dualsense-controller-profiles
+- dualsense-connection-status
+- dualsenseconnectionstatus
+- dualsense-edge
+- playstation-5-controller
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0
