@@ -18,7 +18,7 @@ Installers:
   - DisplayName: yq (x86)
 - Architecture: arm64
   InstallerUrl: https://github.com/mikefarah/yq/releases/download/v4.53.6/yq_windows_arm64.exe
-  InstallerSha256: s9a0ec8f648b0749d3d71286df96384f358c0eeca486bbcdec04e747307021d3a
+  InstallerSha256: 9a0ec8f648b0749d3d71286df96384f358c0eeca486bbcdec04e747307021d3a
   AppsAndFeaturesEntries:
   - DisplayName: yq (ARM64)
 ManifestType: installer
