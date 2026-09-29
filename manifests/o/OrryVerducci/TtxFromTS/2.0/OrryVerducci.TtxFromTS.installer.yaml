@@ -19,10 +19,5 @@ Installers:
   InstallerSha256: 7055defee030e886873f00b05cf269e95071ea74f3990a479e392d08afbc752c
   AppsAndFeaturesEntries:
   - DisplayName: TtxFromTS (x86)
-- Architecture: arm64
-  InstallerUrl: https://github.com/orryverducci/TtxFromTS/releases/download/v2.0/win-arm64.zip
-  InstallerSha256: e669a6e8c27cd9175318ca5c0c3880876977c8dd86310cbd258237202fa7f29b
-  AppsAndFeaturesEntries:
-  - DisplayName: TtxFromTS (ARM64)
 ManifestType: installer
 ManifestVersion: 1.10.0
