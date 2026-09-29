@@ -3,16 +3,21 @@
 
 PackageIdentifier: Veirt.weathr
 PackageVersion: 1.4.0
+ReleaseDate: 2026-02-23
 InstallerType: portable
 InstallModes:
 - silent
 UpgradeBehavior: uninstallPrevious
 Commands:
 - weathr
-ReleaseDate: 2026-02-23
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/Veirt/weathr/releases/download/v1.4.0/weathr-windows-amd64.exe
   InstallerSha256: F9000404FDB875F5F1CC67D8F08A851CA2DD0BF8AC6826BE41DDAB01B354A531
+- Architecture: arm64
+  InstallerUrl: https://github.com/Veirt/weathr/releases/download/v1.4.0/weathr-windows-arm64.exe
+  InstallerSha256: 3d1e33679985c94aa18ac64643d45ab241d60300089b35fdf46cc26f447269ea
+  AppsAndFeaturesEntries:
+  - DisplayName: weathr (ARM64)
 ManifestType: installer
 ManifestVersion: 1.12.0
