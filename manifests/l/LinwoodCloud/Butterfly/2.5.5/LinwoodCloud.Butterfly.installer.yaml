@@ -38,8 +38,8 @@ Installers:
     - PackageIdentifier: Microsoft.VCRedist.2015+.x64
 - Architecture: arm64
   Scope: user
-  InstallerUrl: https://github.com/LinwoodDev/Butterfly/releases/download/v2.6.0/linwood-butterfly-windows-setup-arm64.exe
-  InstallerSha256: 2f9e0471fcae8297ed7778821474e90223b5d59585603f71e52b8fd49ed5bbe2
+  InstallerUrl: https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.5/linwood-butterfly-windows-setup-arm64.exe
+  InstallerSha256: a44870bc737ee00e0dc9cc51cb9b14d5b5c848630039a9a111c7205d651f74eb
   InstallerSwitches:
     Custom: /CURRENTUSER
   Dependencies:
@@ -47,8 +47,8 @@ Installers:
     - PackageIdentifier: Microsoft.VCRedist.2015+.arm64
 - Architecture: arm64
   Scope: machine
-  InstallerUrl: https://github.com/LinwoodDev/Butterfly/releases/download/v2.6.0/linwood-butterfly-windows-setup-arm64.exe
-  InstallerSha256: 2f9e0471fcae8297ed7778821474e90223b5d59585603f71e52b8fd49ed5bbe2
+  InstallerUrl: https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.5/linwood-butterfly-windows-setup-arm64.exe
+  InstallerSha256: a44870bc737ee00e0dc9cc51cb9b14d5b5c848630039a9a111c7205d651f74eb
   InstallerSwitches:
     Custom: /ALLUSERS
   InstallationMetadata:
