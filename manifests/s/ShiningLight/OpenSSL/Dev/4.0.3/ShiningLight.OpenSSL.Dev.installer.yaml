@@ -3,10 +3,11 @@
 
 PackageIdentifier: ShiningLight.OpenSSL.Dev
 PackageVersion: 4.0.3
+ReleaseDate: 2026-09-29
 Scope: machine
+ElevationRequirement: elevatesSelf
 Commands:
 - openssl
-ReleaseDate: 2026-09-29
 Installers:
 - Architecture: x86
   InstallerType: wix
