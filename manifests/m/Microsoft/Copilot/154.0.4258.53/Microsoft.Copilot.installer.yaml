@@ -5,20 +5,53 @@ InstallerLocale: en-US
 Platform:
 - Windows.Desktop
 MinimumOSVersion: 10.0.19041.0
-InstallerType: msi
 Scope: machine
-AppsAndFeaturesEntries:
-- UpgradeCode: '{6A563EDD-8D30-342B-B6DA-5286634351BD}'
+ElevationRequirement: elevatesSelf
 Installers:
-  - Architecture: x64
-    InstallerUrl: https://download.microsoft.com/download/c69eb5c6-5057-4ea5-8664-d59ec939e6e2/CopilotStableEnterpriseX64.msi
-    InstallerSha256: 12492FF59E38399BF8C624EA95DAC893EC779A548E998A9975C309002350D9F8
-  - Architecture: x86
-    InstallerUrl: https://download.microsoft.com/download/c69eb5c6-5057-4ea5-8664-d59ec939e6e2/CopilotStableEnterpriseX86.msi
-    InstallerSha256: 0F1EBCAA3F384510A56756ECF6EFAA994380E155036FC772539B250878849D7D
-  - Architecture: arm64
-    InstallerUrl: https://download.microsoft.com/download/c69eb5c6-5057-4ea5-8664-d59ec939e6e2/CopilotStableEnterpriseARM64.msi
-    InstallerSha256: 6410671418D9F4D0F76F299EEDC3DD2FA7C22AC65822D3ABD7B465D35EAF2323
+- Architecture: x64
+  InstallerType: msi
+  InstallerUrl: https://download.microsoft.com/download/c69eb5c6-5057-4ea5-8664-d59ec939e6e2/CopilotStableEnterpriseX64.msi
+  InstallerSha256: 12492FF59E38399BF8C624EA95DAC893EC779A548E998A9975C309002350D9F8
+  ProductCode: '{99C750D4-5035-344D-B01A-49EDC5EC7D3F}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{6A563EDD-8D30-342B-B6DA-5286634351BD}'
+    ProductCode: '{99C750D4-5035-344D-B01A-49EDC5EC7D3F}'
+- Architecture: x64
+  InstallerType: exe
+  InstallerUrl: https://msedgesetup.microsoft.com/latest/UnifiedCopilotSetup.exe
+  InstallerSha256: 12492FF59E38399BF8C624EA95DAC893EC779A548E998A9975C309002350D9F8
+  ProductCode: 'Microsoft Copilot'
+  AppsAndFeaturesEntries:
+  - ProductCode: 'Microsoft Copilot'
+- Architecture: x86
+  InstallerType: msi
+  InstallerUrl: https://download.microsoft.com/download/c69eb5c6-5057-4ea5-8664-d59ec939e6e2/CopilotStableEnterpriseX86.msi
+  InstallerSha256: 0F1EBCAA3F384510A56756ECF6EFAA994380E155036FC772539B250878849D7D
+  ProductCode: '{72E924D5-7211-3033-83D9-EF1167C15BA5}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{6A563EDD-8D30-342B-B6DA-5286634351BD}'
+    ProductCode: '{72E924D5-7211-3033-83D9-EF1167C15BA5}'
+- Architecture: x86
+  InstallerType: exe
+  InstallerUrl: https://msedgesetup.microsoft.com/latest/UnifiedCopilotSetup.exe
+  InstallerSha256: 12492FF59E38399BF8C624EA95DAC893EC779A548E998A9975C309002350D9F8
+  ProductCode: 'Microsoft Copilot'
+  AppsAndFeaturesEntries:
+  - ProductCode: 'Microsoft Copilot'
+- Architecture: arm64
+  InstallerType: msi
+  InstallerUrl: https://download.microsoft.com/download/c69eb5c6-5057-4ea5-8664-d59ec939e6e2/CopilotStableEnterpriseARM64.msi
+  InstallerSha256: 6410671418D9F4D0F76F299EEDC3DD2FA7C22AC65822D3ABD7B465D35EAF2323
+  ProductCode: '{674294A4-91DE-3E5C-9170-941312CB81EC}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{6A563EDD-8D30-342B-B6DA-5286634351BD}'
+    ProductCode: '{674294A4-91DE-3E5C-9170-941312CB81EC}'
+- Architecture: arm64
+  InstallerType: exe
+  InstallerUrl: https://msedgesetup.microsoft.com/latest/UnifiedCopilotSetup.exe
+  InstallerSha256: 12492FF59E38399BF8C624EA95DAC893EC779A548E998A9975C309002350D9F8
+  ProductCode: 'Microsoft Copilot'
+  AppsAndFeaturesEntries:
+  - ProductCode: 'Microsoft Copilot'
 ManifestType: installer
 ManifestVersion: 1.10.0
-
