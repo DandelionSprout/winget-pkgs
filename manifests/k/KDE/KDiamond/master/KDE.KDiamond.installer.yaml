@@ -6,17 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: kdiamond
+ReleaseDate: 2026-10-02
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kdiamond/master/windows/kdiamond-master-864-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 57B31300FBE915B7A9556D5BE610C252698AB91971A5E77A1DB488920A591BB3
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kdiamond/master/windows/kdiamond-master-935-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 85631A918B284D7686BF2FDDAF7324D622BEAD22AEBB06C389ED0E8C279BB067
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kdiamond/master/windows/kdiamond-master-864-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 57B31300FBE915B7A9556D5BE610C252698AB91971A5E77A1DB488920A591BB3
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kdiamond/master/windows/kdiamond-master-935-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 85631A918B284D7686BF2FDDAF7324D622BEAD22AEBB06C389ED0E8C279BB067
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
