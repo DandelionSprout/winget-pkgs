@@ -1,4 +1,3 @@
-# Automatically updated by the winget bot at 2026/May/21
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: PlayStation.PSRemotePlay
@@ -13,13 +12,20 @@ PackageName: PS Remote Play
 PackageUrl: https://www.playstation.com/en-us/remote-play
 License: Proprietary
 LicenseUrl: https://www.playstation.com/en-us/legal/psn-terms-of-service/
-Copyright: © 2021 Sony Interactive Entertainment LLC
+Copyright: © 2026 Sony Interactive Entertainment LLC
 CopyrightUrl: https://www.playstation.com/en-us/legal/psn-terms-of-service/
-ShortDescription: Stream your PlayStation games from your console to your laptop, desktop
+ShortDescription: Stream your PlayStation 5 and 4 games from your console to your laptop or desktop.
 Moniker: psremoteplay
 Tags:
-- playstation
-- ps
-- remote-play
+- ps-remote-play
+- playstation-remote-play
+- playstationremoteplay
+- playstation-5
+- playstation-4
+- playstation5
+- playstation4
+- ps5
+- ps4
+- game-streaming
 ManifestType: defaultLocale
 ManifestVersion: 1.28.0
