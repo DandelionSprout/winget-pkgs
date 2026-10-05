@@ -4,8 +4,9 @@ PackageIdentifier: PlayStation.PSRemotePlay
 PackageVersion: 9.5.0.08040
 Platform:
 - Windows.Desktop
-InstallerType: msi
+ElevationRequirement: elevatesSelf
 UpgradeBehavior: install
+InstallerLocale: en-US
 Installers:
 - Architecture: x64
   InstallerType: msi
