@@ -3,9 +3,13 @@
 PackageIdentifier: AOMEI.PartitionAssistant.ARM64
 PackageVersion: 10.8.2
 InstallerType: inno
+ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: arm64
   InstallerUrl: https://www2.aomeisoftware.com/download/pa/arm64/PAssist_Std_ARM64.exe
   InstallerSha256: A2505FCDD5DA506A63EBA14C1849644E96F8ABCBC8DCCB19EB8477A813B94124
+  ProductCode: '{02F850ED-FD0E-4ED1-BE0B-54981f5BD3D4}_is1'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{02F850ED-FD0E-4ED1-BE0B-54981f5BD3D4}_is1'
 ManifestType: installer
 ManifestVersion: 1.12.0
