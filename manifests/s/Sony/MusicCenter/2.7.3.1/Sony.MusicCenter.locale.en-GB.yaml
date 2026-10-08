@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.28.0.schema.json
+
+PackageIdentifier: Sony.MusicCenter
+PackageVersion: 2.7.3.1
+PackageLocale: en-GB
+PublisherUrl: https://www.sony.co.uk/
+PublisherSupportUrl: https://www.sony.co.uk/electronics/support
+PackageName: Music Centre for PC
+PackageUrl: https://www.sony.co.uk/electronics/support/articles/MC4PC020001
+License: Proprietary
+LicenseUrl: https://www.sony.co.uk/electronics/support/articles/MC4PC020004
+ShortDescription: An application for organising and transferring music on audio devices manufactured by Sony.
+Tags:
+- sony-music-centre-for-pc
+- sonymusiccentreforpc
+- sony-walkman
+- sonywalkman
+ReleaseNotesUrl: https://www.sony.co.uk/electronics/support/articles/MC4PC020007
+InstallationNotes: https://www.sony.co.uk/electronics/support/articles/MC4PC020005
+Documentations:
+- DocumentLabel: How to use
+  DocumentUrl: https://www.sony.co.uk/electronics/support/articles/MC4PC020037
+ManifestType: locale
+ManifestVersion: 1.28.0
