@@ -9,7 +9,7 @@ InstallerSwitches:
   SilentWithProgress: /S /v/passive
 ElevationRequirement: elevatesSelf
 Installers:
-- Architecture: x86
+- Architecture: x64
   InstallerUrl: https://info.update.sony.net/PP002/MusicCenterForPcSSL/contents/0016/musiccenter_setup_2.7.3.exe
   InstallerSha256: 0b641d6951218fbf42210ea3bcb23b0bcb9f8e26561c1adb970bee6d0d4cc051
 ManifestType: installer
