@@ -8,7 +8,7 @@ NestedInstallerFiles:
 - RelativeFilePath: SupportTools\amd64\MomADAdmin.exe
   PortableCommandAlias: momadadmin
 Installers:
-- Architecture: x86
+- Architecture: x64
   InstallerUrl: https://download.microsoft.com/download/6314b969-ddb8-42f2-aec0-5c96e8c4630a/SCOM_2025.zip
   InstallerSha256: EAB2EB4A877857E44420759512682A153AFBBD80A169752CCD9B0DB8A9C0D1C2
 ManifestType: installer
