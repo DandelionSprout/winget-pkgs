@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: Ayideyia.GUI-for-SingBox
+PackageVersion: 1.27.0
+ReleaseDate: 2026-09-07
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: GUI.for.SingBox.exe
+  PortableCommandAlias: gui.for.singbox
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.27.0/GUI.for.SingBox-windows-amd64.zip
+  InstallerSha256: 1bea584344fdbff398a369acb0dc4a28d81329c99660c7716d0e0b5f9b0c7d03
+- Architecture: x86
+  InstallerUrl: https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.27.0/GUI.for.SingBox-windows-386.zip
+  InstallerSha256: b5122b24293e9375f0d5f0c2cb75bfc1cff75d1d246a844a425c376c95bf8e63
+  AppsAndFeaturesEntries:
+  - DisplayName: GUI.for.SingBox (x86)
+- Architecture: arm64
+  InstallerUrl: https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.27.0/GUI.for.SingBox-windows-arm64.zip
+  InstallerSha256: 63ad5b3e51660887c82e35f7893d955d18081f34fa3c292767b87f493641d8d5
+  AppsAndFeaturesEntries:
+  - DisplayName: GUI.for.SingBox (ARM64)
+ManifestType: installer
+ManifestVersion: 1.28.0

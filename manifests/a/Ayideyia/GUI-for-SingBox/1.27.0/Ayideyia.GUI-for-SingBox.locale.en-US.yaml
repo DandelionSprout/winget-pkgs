@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+
+PackageIdentifier: Ayideyia.GUI-for-SingBox
+PackageVersion: 1.27.0
+PackageLocale: en-US
+Publisher: Ayideyia
+PackageName: GUI.for.SingBox
+PackageUrl: https://github.com/GUI-for-Cores/GUI.for.SingBox
+License: GPL-3.0
+ShortDescription: GUI client for SingBox.
+Moniker: gui.for.singbox
+Tags:
+- guiforsingbox
+- gui-for-singbox
+- gui-for-sing-box
+- graphic-user-interface-for-singbox
+- graphicuserinterfaceforsingbox
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0
